@@ -1,0 +1,388 @@
+/*
+Theme Name:     Restaurant
+Theme URI:      http://www.designpromote.co.uk/wordpress
+Description:    Restaurant Theme is an easy to use but functional responsive theme to build restaurant websites that work on any device. Features include a front page template with its own loading page, an intergrated slider library to manage sliders, and optional Google Map plugins and Restaurant SimpleBooings plugins (available at Designpromote.co.uk/wordpress), it may work with other types of business. The theme is a child theme of Twenty Twelve. 
+Author:         Nan Zhang
+Author URI:     http://www.designpromote.co.uk/
+Template:       twentytwelve
+Version:				1.02
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-header, full-width-template, flexible-width
+Text Domain: restaurant
+
+Restaurant theme is licensed under the GPL. Photos/images included are free to use. jQuery FlexSlider v2.0 Copyright 2012 WooThemes
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* =Basic structure */
+a {
+	outline: none;
+	color: #660000;
+}
+a:hover {
+	color: #0f3647;
+}
+
+/* Page structure */
+#top-page {
+ display:block;float:left;height:5px;width:100%;background-color:#660000;
+}
+.site-header {
+	padding: 24px 0 0 0;
+	padding: 1.714285714rem 0 0 0;
+}
+.site-content {
+	margin: 0;
+	padding-left: 14px;
+}
+.site-content.front-page {
+	padding-left: 0;
+}
+.template-front-page .home-widget,
+.home-widget {
+	display: block;
+	float: left;
+	width: 100%;
+}
+hgroup,
+.main-navigation  ul,
+footer .site-info {
+	padding: 0 1rem;
+	padding: 0 14px;
+}
+
+/* Navigation Menu */
+.main-navigation li {
+	font-size: 13px;
+	font-size: 1rem;
+	line-height: 1.42857143;
+}
+.main-navigation a {
+	color: #660000;
+}
+.main-navigation a:hover {
+	color: #21759b;
+}
+/* Header */
+.site-header h1 a,
+.site-header h2 a {
+	color: #660000;
+	display: inline-block;
+	text-decoration: none;
+}
+.site-header h1 a:hover,
+.site-header h2 a:hover {
+	color: #660000;
+}
+.site-header h1 {
+	color: #660000;
+	font-size: 28px;
+	font-family: "Times New Roman",Times,serif;
+	/*font-size: 1.714285714rem;*/
+	line-height: 1.285714286;
+	/*line-height: 1;*/
+	/*margin-bottom: 14px;
+	margin-bottom: 1rem;*/
+}
+.site-header h2 {
+	color: #749e6e;
+	/*margin-top: -10px;*/
+	line-height: 1.4;
+}
+.site-header .site-contact,
+.site-header .site-contact .widget{
+	/*float:right;
+	display:none;
+	margin-top:-50px;*/
+	color: #515151;
+	line-height: 1.4;
+	text-align: center;
+}
+.site-header .site-contact a {
+	color: #515151;
+	text-decoration: none;
+}
+.flex-caption{
+	color: #fff;
+	font-size: 17px;
+	font-size:1.2rem;
+	font-weight: normal;
+	line-height: 1.4;
+	background-color: #660000;
+	opacity: 0.6; 
+	filter: alpha(opacity=60);
+	padding: 5px;
+	position: absolute;
+	bottom: 10%;
+	right:0;
+	/*left:500px;*/
+	width: 40%;
+	/*margin-top: -35px;*/
+}
+/* homewidget */
+.template-front-page .home-widget .widget-title,
+.home-widget .widget-title {
+	line-height: 2.181818182;
+	background-color: #660000;
+	color: #fff;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	font-size: 1rem;
+}
+.template-front-page .home-widget .widget,
+.home-widget .widget {
+	margin-bottom: 25px;
+}
+.template-front-page .home-widget .textwidget,
+.home-widget .textwidget {
+	line-height: 1.846153846;
+	/*padding: 0 5px;*/
+}
+.template-front-page .home-widget img,
+.home-widget img{
+	float:left;
+}
+.template-front-page .home-widget img:hover,
+.home-widget img:hover {
+	opacity: 0.7;
+	filter:Alpha(opacity=70); /* ie8 and earlier */
+}
+
+/* =Main content and comment content */
+.entry-header {
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+	margin-top: 24px;
+	margin-top: 1.714285714rem;
+}
+.template-front-page .entry-header {
+	display: none;
+}
+.template-front-page .entry-content h2{
+	margin: 0;
+}
+.entry-content h3 a[target="_blank"]:after, 
+.entry-content h3 a[target="new"]:after {
+    margin: 0;
+}
+.entry-content .menu-text {
+	background: none; 
+	padding-bottom: 10px;
+}
+.entry-content .menu-title {
+	color:#fff; 
+	margin-bottom:1px;
+	padding: 5px;
+	background-color:#660000;
+	text-align: left;
+}
+.entry-content .menu-top{
+	float:right;
+}
+.entry-content .toggle-sign {
+	display: inline-block;
+	width: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+.widget-area .widget input[type="button"],
+.content-area input[type="button"],
+.head-widget  input[type="button"]{
+	width: 150px;
+	color: #ffffff;
+	background-color: #660000;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #660000, #660000);
+	background-image: -ms-linear-gradient(top, #660000, #660000);
+	background-image: -webkit-linear-gradient(top, #660000, #660000);
+	background-image: -o-linear-gradient(top, #660000, #660000);
+	background-image: linear-gradient(top, #660000, #660000);
+	border: 1px solid #660000;
+}
+.content-area input[type="button"] {
+	margin: 0 auto;
+	display: block;
+}
+select{
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 6px;
+	padding: 0.428571429rem;
+}
+/* Sidebar */
+.widget-area .widget {
+	margin-bottom: 20px;
+}
+.widget-area .widget h3 {
+	margin-bottom: 5px;
+}
+.widget-title {
+	color: #660000;
+}
+
+.widget-area .widget a {
+	text-decoration: none;
+}
+/* Google maps */
+#map_canvas{
+	width: 245px;
+	height: 250px;
+	border: 1px solid #660000;
+}
+#map_canvas img{
+	max-width:none; 
+	/*google map infowindow can show correctly.*/
+}
+.zn-gmap{
+	border: 1px solid #660000;
+}
+/* Footer */
+footer[role="contentinfo"] {
+	background-color: #660000;
+	margin-top: 0;
+	padding: 0 0 5px 0;
+}
+footer[role="contentinfo"] a {
+	color: #ffffff;
+	text-decoration: none;
+}
+footer[role="contentinfo"] a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+footer .site-info{
+	border-top: solid 1px #ffffff;
+}
+footer .widget-area {
+	margin: 5px 0 0;
+}
+footer .widget-area .widget h3 {
+	margin-bottom: 5px;
+}
+footer .site-info{
+	text-align: right;
+}
+.template-front-page .widget-area.three,
+#footer-widgets.widget-area.three{
+	clear: both;
+	float: none;
+	width: auto;
+	padding-top: 0px;
+	padding-left: 14px;
+	/*padding-top: 1.714285714rem;
+	border-top: 1px solid #ededed;*/
+}
+/* =Main content and comment content */
+.site-content article {
+	border-bottom: 0px;
+}
+/* ===[ Footer Widget Areas ]=== */
+.site-info { clear: both; }
+#footer-widgets {
+	border-top: none;
+	/*float: left;*/
+}
+#footer-widgets  .widget-title,
+#footer-widgets .textwidget{
+	color: #ffffff;
+}
+#footer-widgets .widget li { list-style-type: none; }
+
+/* Minimum width of 960 pixels. */
+@media screen and (min-width: 960px) {
+	body {
+		background-color: #eee; /*#e6e6e6*/
+	}
+	body .site {
+		padding: 0; 
+		margin-top: 0; /*48px;*/
+		margin-bottom: 0;
+		box-shadow: 0 0px 0px rgba(100, 100, 100, 0.3);
+	}
+}
+
+@media screen and (min-width: 600px) { 
+	.site-header h2 {
+		line-height: 1.8262;
+	}
+	.main-navigation li a {
+		border-bottom: 0;
+		color: #660000;
+	}
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a,
+	.main-navigation .current_page_item > a,
+	.main-navigation .current_page_ancestor > a {
+		color: #660000;
+	}	
+	.site-header .site-contact{
+		float:right;
+		display:block;
+		padding-right: 1rem;
+		padding-right: 14px;
+		margin-top:-50px;
+		color: #515151;
+		font-weight: normal;
+	}
+	.template-front-page .home-widget .widget,
+	.home-widget .widget{
+		float: left;
+		width: 300px;
+	}
+	.template-front-page .home-widget .widget:first-child,
+	.home-widget .widget:first-child{
+		margin-right: 30px;
+	}
+	.template-front-page .home-widget .widget:last-child,
+	.home-widget .widget:last-child{
+		float: right;
+	} 
+	.template-front-page .home-widget  a:hover,
+	.home-widget  a:hover{
+		text-decoration: none;
+	}
+	.template-front-page .home-widget  article,
+	.home-widget  article{
+		padding-bottom: 0px;
+	}
+	.template-front-page .home-widget .widget-title,
+	.home-widget .widget-title	{
+		line-height: 2.181818182;
+		background-color: #660000;
+		color: #fff;
+		text-align: center;
+		display: block;
+		font-weight: normal;
+		font-size: 14px;
+		font-size: 1rem;
+	}
+	/*footer[role="contentinfo"]{
+		padding: 0 14px;
+	}*/
+	#footer-widgets {
+		width: 100%;
+	}
+	#footer-widgets.three .widget {
+		clear: none;
+		float: left;
+		margin-right: 1.71429rem;
+		max-width: 29.85%;
+		width: 29.85%;
+	}
+}
+
+/* for IE8 and IE7 */
+.ie #footer-widgets.three .widget {
+    float: left;
+    margin-right: 3.1%;
+    width: 29.85%;
+    clear: none;
+}
+.ie #footer-widgets.three .widget + .widget + .widget { 
+	margin-right: 3.1%; 
+}
