@@ -28,7 +28,7 @@
         </div><!-- #footer-widgets -->	
 	
 		<div class="site-info">
-			<a href="<?php echo esc_url( admin_url() ); ?>">Admin |</a> <a href="<?php echo esc_url( __( 'http://www.designpromote.co.uk/', 'restaurant' ) ); ?>" title="<?php esc_attr_e( 'designpromote', 'restaurant' ); ?>"><?php printf( __( 'Theme by %s', 'restaurant' ), 'Designpromote Edinburgh' ); ?></a>
+			<a href="<?php echo esc_url( admin_url() ); ?>">Admin |</a> <a href="<?php echo esc_url( __( 'http://www.designpromote.co.uk/', 'restaurant' ) ); ?>" title="<?php esc_attr_e( 'designpromote', 'restaurant' ); ?>"><?php printf( __( 'Theme by %s', 'restaurant' ), 'Designpromote' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

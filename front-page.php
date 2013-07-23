@@ -19,7 +19,7 @@ get_header();
 // load images in php for template development.
 ?>
 <?php remove_filter ('the_content', 'wpautop'); ?>
-	<div class="flexslider" style="display:block;">
+	<div class="flexslider">
 	<ul class="slides">
 		<?php
 		global $wpdb;
