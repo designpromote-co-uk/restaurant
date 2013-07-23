@@ -4,6 +4,14 @@
 * By default, it receives the input from the Media Upload screen and provides default values to the post_title, 
 * in case the user hasn't done so. 
 */
+//add_action( 'wp_head', 'zn_head' );
+function zn_head() {
+	printf( '<meta name="Description" content="Restaurant wordpress theme build a restaurant website." />' );
+	$format = '<link rel="icon" href="%s" type="image/x-icon" />';
+	printf( $format, get_stylesheet_directory_uri() . '/images/site.ico' );
+	$format = '<link rel="shortcut icon" href="%s" type="image/x-icon" />';
+	printf( $format, get_stylesheet_directory_uri() . '/images/site.ico' );
+}
 //add_action( 'setup_theme', 'zn_setup_home_page' );
 //add_action( 'after_setup_theme', 'zn_setup_home_page' );
 function zn_setup_home_page() {

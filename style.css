@@ -1,17 +1,17 @@
 /*
 Theme Name:     Restaurant
-Theme URI:      http://www.designpromote.co.uk/wordpress
-Description:    Restaurant Theme is an easy to use but functional responsive theme to build restaurant websites that work on any device. Features include a front page template with its own loading page, an intergrated slider library to manage sliders, and optional Google Map plugins and Restaurant SimpleBooings plugins (available at Designpromote.co.uk/wordpress), it may work with other types of business. The theme is a child theme of Twenty Twelve. 
+Theme URI:      http://www.designpromote.co.uk/wp2012/restaurant/
+Description:    Restaurant Theme is an easy to use but functional responsive theme to build restaurant websites that work on any device. Features include a loading page, an intergrated slider library to manage sliders, and optional Google Map plugins, Restaurant SimpleBooings plugins (available at Designpromote.co.uk/wordpress). It may work with other types of business.
 Author:         Nan Zhang
 Author URI:     http://www.designpromote.co.uk/
 Template:       twentytwelve
-Version:	1.03
+Version:				1.04
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: custom-header, full-width-template, flexible-width
+Tags: website, custom-header, full-width-template, flexible-width
 Text Domain: restaurant
 
-Restaurant theme is licensed under the GPL. Photos/images included are free to use. jQuery FlexSlider v2.0 Copyright 2012 WooThemes
+Restaurant theme, photos/images included are licensed under the GPL. jQuery FlexSlider v2.0 Copyright 2012 WooThemes
 */
 
 @import url("../twentytwelve/style.css");
